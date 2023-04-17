@@ -1,0 +1,8 @@
+{
+  "name": "Nuxt3 & Rails7 API",
+  "dockerComposeFile": "../compose.yml",
+  "service": "frontend",
+  "workspaceFolder": "/app/frontend",
+  "forwardPorts": [3000, 3100],
+  "shutdownAction": "stopCompose"
+}
